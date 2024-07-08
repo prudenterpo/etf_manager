@@ -34,7 +34,7 @@ public class EtfController {
     public ResponseEntity<Etf> getEtfById(@PathVariable Long id) {
         return etfService.getEtfById(id)
                 .map(ResponseEntity::ok)
-                .orElseGet(() -> ResponseEntity.notFound().build())
+                .orElseGet(() -> ResponseEntity.notFound().build());
     }
 
     @DeleteMapping("/{id}")
