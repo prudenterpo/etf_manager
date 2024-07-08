@@ -1,7 +1,6 @@
 package com.pdo.etf_manager.controller;
 
 import com.pdo.etf_manager.model.Etf;
-import com.pdo.etf_manager.repository.EtfRepository;
 import com.pdo.etf_manager.service.EtfService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
